@@ -1,0 +1,30 @@
+.container{
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.25);
+    color: aliceblue;
+    border: 1px solid rgba(255, 255, 255, 0.125);  
+    filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.btn {
+    margin-bottom: 50px;
+}
+
+::placeholder {
+    opacity: 0.5;
+}
+
+.icon_size{
+    width: 5rem;
+    height: 5rem;
+}
+
+h1 {
+    margin: 20px;
+}
