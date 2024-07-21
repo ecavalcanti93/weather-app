@@ -29,16 +29,10 @@ function App() {
 
   return (
     <div>
-      {/* <nav className="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-        <a className="navbar-brand text-white">Rain Check</a>
-      </nav> */}
-
       <main className="container d-flex align-items-center justify-content-center mx-auto" >
         <div className="jumbotron text-center mt-4">
           <img src={logo} className="img-fluid w-50" />
           <h1>Search for a city and check the weather!</h1>
-          {/* <p className="lead">Search a city:</p> */}
-
           <div className="row mb-4">
             <div className="com-md-6">
               <input
