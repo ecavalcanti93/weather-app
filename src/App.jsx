@@ -10,10 +10,11 @@ function App() {
     setCity(e.target.value);
   };
 
-  const handleSearch = () => {
-    fetch(
-      `http://api.weatherapi.com/v1/current.json?key=fd29f4265bc04759a6a92137241707&q=${city}&lang=en`
-    )
+  const API_KEY = import.meta.env.VITE_API_KEY;
+  const API_URL = import.meta.env.VITE_API_URL;
+
+const handleSearch = () => {
+  fetch(`${API_URL}?key=${API_KEY}&q=${city}&lang=en`)
 
       .then((response) => {
         if (response.status === 200) {
